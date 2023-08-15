@@ -1,0 +1,36 @@
+.list-container {
+  display: flex;
+  padding-left: 0px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+.by-para {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #64748b;
+}
+
+.bg-container {
+  padding: 50px;
+}
+
+.image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+  .by-para {
+    font-size: 20px;
+  }
+}
